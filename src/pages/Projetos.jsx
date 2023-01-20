@@ -262,7 +262,7 @@ return ( <div id="projetos">
      funcionalidades como classes,Arrays, Objetos e Eventos, Esse Projeto foi
      Utilizado Tecnologias FrontEnd como Html,React, Css, JavaScript,Acesse 
      Ao Iconi do GitHub para mais informações do código,Passe o Mouse em cima da imagem 
-     para ampliar. 
+     para ampliar. <b><a href="https://calculadora-reactjavascript.netlify.app/"><i> Clique Aqui para Ver Projeto </i></a> </b>
      <div id="iconsCalculadora">
       <img src={iconHtml} width="50" />
     <img src={iconCss}  width="50" />
