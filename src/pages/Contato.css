@@ -1,0 +1,119 @@
+#contato{
+    position: absolute;
+    top: 120px;
+    background-color: #ffffff;
+    padding: 300px;
+    padding-right: 800px;
+}
+#formulario{
+    position: absolute;
+    top: 20px;
+left: 100px;
+border: solid 2px rgb(0, 0, 0);
+padding-bottom: 100px;
+background-color: #ffffff;
+
+
+}
+.row , .form-group{
+    background-color: #ffffff;
+    padding: 60px;
+}
+
+.col , .form-group{
+    background-color: #ffffff;
+}
+#digitarNome ,#placeNome{
+    position: absolute;
+    left: 20px;
+    background-color: #000000;
+    color: white;
+    border: solid 2px rgb(145, 37, 37);
+    padding: 20px;
+    font-size: larger;
+}
+
+#placeNome{
+    position: absolute;
+    top: 60px;
+    left: 220px;
+}
+
+#digitarEmail{
+    position: absolute;
+    left: 20px;
+    top: 140px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border: solid 2px rgb(145, 37, 37);
+    padding: 20px;
+    font-size: larger;
+}
+
+#placeEmail{
+    position: absolute;
+    left: 220px;
+    top: 140px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border: solid 2px rgb(145, 37, 37);
+    padding: 20px;
+    font-size: larger;
+}
+#mensagem{
+    position: absolute;
+    top: 250px;
+    left: 110px;
+    background-color: rgb(145, 37, 37);
+    color: rgb(255, 255, 255);
+    border: solid 2px rgb(0, 0, 0);
+    padding: 5px;
+    padding-right: 60px;
+    padding-left: 60px;
+    font-size: larger;
+    z-index: 6;
+}
+.form-group{
+    width: 400px;
+}
+
+
+#areaTexto{
+    position: absolute;
+    top:320px;
+    width: 400px;
+    background-color: #00000048;
+    font-size: larger;
+    color: rgb(0, 0, 0);
+}
+.submitFormulario{
+    position: absolute;
+    left: 150px;
+    border: solid 2px rgb(145, 37, 37);
+    padding: 5px;
+    font-size: larger;
+    background-color: #c30c0c;
+    top: 500px;
+    padding-left: 60px;
+    padding-right: 60px;
+    color: white;
+}
+
+@media (max-width:1400px){
+    #contato{
+        position: absolute;
+        left: -50px;
+    }
+}
+
+@media(max-width:1200px){
+    #formulario{
+        left: 10px;
+    }
+}
+@media(max-width:800px){
+    #contato{
+        position: absolute;
+        left: -120px;
+    }
+}

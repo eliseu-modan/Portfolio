@@ -1,0 +1,130 @@
+#navegaçao {
+    position: relative;
+    display: block;
+   left: 500px;
+   padding-right: 60px; 
+   top: 10px;
+   position: fixed;
+
+}
+
+#navegaçao__btnInicio {
+    position: absolute;
+    left: 100px;
+    font-size: 20pt;
+    margin-block-start:  5px ;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    opacity: 90%;
+    }
+
+    #navegaçao__btnProjetos{
+        position: absolute;
+        left: 250px;
+        font-size: 20pt;
+        margin-block-start:  5px ;
+        padding: 10px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 30px;
+        opacity: 90%;
+    }
+ 
+
+  
+   
+
+
+    #navegaçao__btnAprendizado{
+        position: absolute;
+        left: 450px;
+        font-size: 20pt;
+        margin-block-start:  5px ;
+        padding: 10px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 30px;
+        opacity: 90%;
+    }
+
+      #navegaçao__btnContato{
+        position: absolute;
+        left: 750px;
+        font-size: 20pt;
+        margin-block-start:  5px ;
+        padding: 10px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 30px;
+        border: solid 1px rgb(145, 37, 37);
+      }
+      .navegaçao--contato , a{
+        background-color:rgb(255, 255, 255);
+        color: rgb(182, 0, 0);
+    }
+    a {
+        text-decoration:none;
+        color: rgb(0, 0, 0);
+       background-color: rgb(255, 255, 255);
+    }
+   @media (max-width:1530px){
+    #navegaçao__btnInicio{
+      position:absolute;
+      
+      left:-20px;
+    }
+    #navegaçao__btnProjetos{
+      position:absolute;
+      
+      left: 120px;
+    }
+    #navegaçao__btnAprendizado{
+      position:absolute;
+    
+      left:300px;
+    }
+    #navegaçao__btnContato{
+      position:absolute;
+    
+      left:550px;
+    }
+
+   }
+   @media (max-width:1240px){
+   
+        a{
+             position: absolute;
+        
+            font-size: 15px;
+        }
+        #navegaçao__btnInicio{
+          position: absolute;
+          left: -70px;
+          width: 40px;
+          height: 20px;
+        }
+        #navegaçao__btnProjetos{
+          position: absolute;
+          left: 0px;
+          width: 80px;
+          height: 20px;
+        }
+        #navegaçao__btnAprendizado{
+          position: absolute;
+          left:110px;
+          width: 100px;
+          height: 20px;
+        }
+        #navegaçao__btnContato{
+          position: absolute;
+          left:240px;
+          width: 80px;
+          height: 20px;
+        }
+           }
+           @media(max-width:999px){
+            #navegaçao{
+              position: absolute;
+              left: 160px;
+              top: 1300px;
+       
+            }
+           }

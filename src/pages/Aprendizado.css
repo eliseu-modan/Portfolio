@@ -1,0 +1,181 @@
+#aprendizado{
+    position: absolute;
+    top: 120px;
+    background-color: #ffffff;
+    padding: 300px;
+    padding-right: 800px;
+}
+#iconReact{
+    background-color: #333333;
+    position: absolute;
+    top: 20px;
+    left: 90px;
+}
+#conteudo{
+    position: absolute;
+    left: 40px;
+    top: 200px;
+    width: 700px;
+    height: 250px;
+    line-height: 150%;
+    font-size: larger;
+    font-size: 17;
+    background-color: rgb(145, 37, 37);
+    color: rgb(228, 228, 228);
+    border: solid 6px rgb(0, 0, 0);
+    border-radius: 35px;
+    padding:35px;
+
+}
+ #conteudoReact,#conteudoHtml ,#conteudoCss ,#conteudoJs,#conteudoGulp,#conteudoBootstrap,#conteudoJquery,#conteudoWebpack,#conteudoNpm,#conteudoNode,
+ #conteudoJava ,#conteudoMysql,#conteudoUml{
+    display: none;
+}
+
+
+
+#iconHtml{
+    background-color: #333333;
+    position: absolute;
+    top: 20px;
+    left: 200px;
+}
+        #iconCss{
+            background-color: #333333;
+            position: absolute;
+            top: 20px;
+            left: 300px;
+        }
+
+
+        #iconJs{
+            background-color: #333333;
+            position: absolute;
+            top: 20px;
+            left: 400px;
+            border-radius: 17px;
+        }
+        #iconGulp{
+            background-color: #333333;
+            position: absolute;
+            top: 20px;
+            left: 500px;
+            border-radius: 17px;
+        }
+        #iconBootstrap{
+            background-color: #333333;
+            position: absolute;
+            top: 20px;
+            left: 600px;
+            border-radius: 17px;
+        }
+        #iconJquery{
+            background-color: #333333;
+            position: absolute;
+            top: 20px;
+            left: 700px;
+            border-radius: 17px;
+            opacity: 95%;
+            height: 60px;
+        }
+        #iconWebPack{
+            background-color: #333333;
+            position: absolute;
+            top: 110px;
+            left: 90px;
+            border-radius:12px;
+            opacity: 95%;
+        }
+        #iconNpm{
+
+            background-color: #333333;
+            position: absolute;
+            top: 110px;
+            left: 200px;
+            opacity: 95%;
+            height: 45px;
+
+        }
+        #iconNode{
+            background-color: #333333;
+            position: absolute;
+            top: 110px;
+            left: 300px;
+            opacity: 95%;
+            height: 45px;
+        }
+        #iconJava{
+            background-color: #333333;
+            position: absolute;
+            top: 110px;
+            left: 400px;
+            
+            opacity: 95%;
+            height: 50px;
+        }
+
+        #iconMysql{
+            background-color: #333333;
+            position: absolute;
+            top: 110px;
+            left: 500px;
+            
+            opacity: 95%;
+            height: 50px;
+        }
+        #iconUml{
+            background-color: #333333;
+            position: absolute;
+            top: 110px;
+            left: 600px;
+            
+            opacity: 95%;
+            height: 60px;
+        }
+
+        #icons{
+            position: absolute;
+            left: 10px;
+            top: 10px;
+        }
+
+        @media (max-width:1400px){
+            #aprendizado{
+                position: absolute;
+                left: -90px;
+            }
+            #conteudo{
+                width: 600px;
+            }
+        }
+        @media(max-width:1200px){
+            #conteudo{
+                font-size:14px;
+                left: -20px;
+                top: 250px;
+                width: 500px;
+            }
+          #iconBootstrap{
+            position: absolute;
+            left: 10px;
+          }
+          #iconUml{
+            position: absolute;
+            top: 180px;
+            left: 5px;
+          }
+           #iconJquery{
+            position: absolute;
+            width: 40px;
+            left: 10px;
+            top: 100px;
+           }
+        }
+        @media(max-width:800px){
+            #aprendizado{
+                position: absolute;
+                left: -150px;
+            }
+        }
+
+      

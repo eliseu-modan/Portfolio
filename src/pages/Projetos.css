@@ -1,0 +1,377 @@
+#projetos {
+    overflow-y:scroll;
+    position: absolute;
+    top: 110px;
+    background-color: #ffffff;
+    padding: 310px;
+    padding-right: 700px;
+
+}
+#nome{
+    position: absolute;
+    top: 70px;
+    left: 35%;
+   padding: 2%;
+   color: rgb(255, 255, 255);
+   font-size:25pt;
+    border-radius: 30PX;
+    border: solid 1px rgb(255, 255, 255);
+    background-color:rgb(182 , 0 ,0);    
+}
+
+#area__FrontEnd{
+    position: absolute;
+    left: 20px;
+    font-size: larger;
+    top: 230px;
+    padding-right:78% ;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    opacity: 80%;
+    border-radius: 30px;
+    border: solid 4px rgb(0, 0, 0);
+    background-color: #ffffff;
+    color: black;
+}
+#setaBaixo{
+    position: absolute;
+    left: 92%;
+    top: 1px;
+    
+}
+#abrir{
+    position: absolute;
+    top: 10px;
+    left: 855px;
+    background-color: black;
+    padding: 6px;
+    z-index: 8;
+    
+}
+.conteudoFrontEnd{
+    position: absolute;
+    left: 0px;
+    top:150px;
+    /* padding: 300px;  */
+     /* padding-right: 580px;  */
+    padding-bottom:2500px ;
+background-color:#333333;
+
+/* border-radius: 35px; */
+
+
+}
+
+#setacima{
+
+    position: fixed;
+    left: 93%;
+    top: 650px;
+    padding: 4px;
+    background-color: #333333;
+    display: none;
+    border: solid 3px white;
+    border-radius: 10px;
+    
+}
+
+#fecharConteudoFrontEnd{
+    z-index: 1;
+}
+
+#cadastro{
+    position: absolute;
+left: 35%;
+top: 25px;
+padding: 6px;
+border: solid 2px black;
+font-size: larger;
+
+}
+#conteudoCadastro{
+    position: absolute;
+    left: 30px;
+    top: 130px;
+    padding-right: 10px;
+    padding-bottom: 795px;
+    border: solid 2px rgb(0, 0, 0);
+    /* background-color: aquamarine; */
+}
+#informaçoesCadastro{
+    position: relative;
+
+    width: 700px;
+    height: 0px;
+    font-size: larger;
+    font-size: 20px;
+    margin: 50px;
+    line-height: 150%;
+    top: 50px;
+color:#333333;
+}
+#calculadora{
+    position: absolute;
+    left: 40%;
+    top: 30px;
+    padding: 6px;
+    border: solid 2px black;
+    font-size: larger;
+ 
+}
+#conteudoCalculadora{
+    position: absolute;
+    left: 30px;
+    top: 1050px;
+    padding-right: 10px;
+    padding-bottom: 700px;
+    border: solid 2px black;
+    
+}
+#portifolio{
+    position: absolute;
+    left: 45%;
+    top: 20px;
+    padding: 6px;
+    border: solid 2px black;
+    font-size: larger;
+}
+#conteudoPortifolio{
+    position: absolute;
+    left: 30px;
+    top: 1880px;
+    padding-right: 10px;
+    padding-bottom: 750px;
+    border: solid 2px black;
+
+
+}
+#iconsCadastro{
+    position: absolute;
+    left:0px;
+    top: 280px;
+    opacity: 70%;
+}
+#cadastroimg , #calculadoraimg{
+    position: absolute;
+    top: 360px;
+    opacity: 90%;
+    padding: 6px;
+    border: solid 2px black;
+
+}
+#Homeimg{
+    position: absolute;
+    top: 360px;
+    opacity: 90%;
+    padding: 6px;
+    border: solid 2px rgb(0, 0, 0);
+}
+#usuariosimg{
+    position: absolute;
+    top: 360px;
+    left: -12px;
+    opacity: 90%;
+    padding: 6px;
+    border: solid 2px black;
+    display: none;
+}
+
+#imgPortifolio2{
+    display: none;
+}
+#loginimg{
+position: absolute;
+    top: 360px;
+    left: -12px;
+    opacity: 90%;
+    padding: 6px;
+    border: solid 2px black;
+    display: none;
+}
+#btndireita{
+    position: absolute;
+    top: 590px;
+    padding: 4px;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    left: 720px;
+    border: solid 4px rgb(255, 255, 255);
+    opacity: 60%;
+
+}
+#btndireitaPortifolio{
+    position: absolute;
+    top: 590px;
+    padding: 4px;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    left: 700px;
+    border: solid 4px rgb(255, 255, 255);
+    opacity: 60%;
+}
+#btnesquerda{
+    position: absolute;
+    top: 591px;
+    padding: 4px;
+    background-color: rgb(255, 255, 255);
+    z-index: 7;
+    left: 63px;
+    border: solid 4px rgb(255, 255, 255);
+    opacity: 60%;
+}
+#btnesquerdaPortifolio{
+    position: absolute;
+    top: 591px;
+    padding: 4px;
+    background-color: rgb(255, 255, 255);
+    z-index: 7;
+    left: 63px;
+    border: solid 4px rgb(255, 255, 255);
+    opacity: 60%;
+}
+
+
+#setadireita{
+    position: absolute;
+    top: 590px;
+    left: 760px;
+}
+
+#imgsCalculadora{
+    position: absolute;
+    top: -90px;
+}
+#imgsCadastro{
+position: absolute;
+top: 35px;
+}
+#imgsPortifolio{
+    position: absolute;
+    top: 20px;
+}
+#informaçoesCalculadora{
+    position: relative;
+
+    width: 700px;
+    height: 0px;
+    font-size: larger;
+    font-size: 20px;
+    margin: 50px;
+    line-height: 150%;
+    top: 50px;
+color:#333333;
+}
+#iconsCalculadora{
+    position: absolute;
+    top: 200px;
+}
+#informaçoesPortifolio{
+    position: relative;
+
+    width: 700px;
+    height: 0px;
+    font-size: larger;
+    font-size: 20px;
+    margin: 50px;
+    line-height: 150%;
+    top: 30px;
+color:#333333;
+}
+#iconsPortifolio{
+    position: absolute;
+    top: 310px;
+}
+
+#Projetosimg{
+    position: absolute;
+    top: 360px;
+    opacity: 90%;
+    padding: 6px;
+    border: solid 2px rgb(0, 0, 0);
+    display: none;
+}
+
+@media (max-width:1530px){
+#area__FrontEnd{
+    position: absolute;
+width: 450px;
+left: -200px;
+top: 10px;
+
+}
+@media(max-width:1400px){
+    #projetos{
+        position: absolute;
+        left: -55px;
+        width:350px;
+    }
+    .conteudoFrontEnd{
+        position: absolute;
+        left: -80px;
+    }
+}
+#area__FrontEnd{
+    position: relative;
+        left: -310px;
+}
+#nome{
+    position:absolute;
+    left:280px ;
+}
+#fecharConteudoFrontEnd{
+    position: absolute;
+}
+
+}
+@media(max-width:1200px){
+#area__FrontEnd{
+position:relative;
+left: -300px;
+top: 25px;
+width:250px ;
+height: 20px;
+}
+#setaBaixo{
+    position: absolute;
+    left: 450px;
+    top: -2px;
+}
+#nome{
+    position: absolute;
+    left: 10pc;
+}
+.conteudoFrontEnd,#conteudoCadastro,#conteudoCalculadora,#conteudoPortifolio{
+    position: absolute;
+    left: -10px;
+    width: 600px;
+}
+#informaçoesCadastro,#informaçoesCalculadora,#informaçoesPortifolio{
+    font-size: 15px;
+    width: 500px;
+}
+#imgsCadastro,#imgcadastro,#imgCalculadora,#imgPortifolio1,#imgPortifolio2{
+    width: 400px;
+}
+#btndireita,#btndireitaPortifolio{
+    position: absolute;
+    left: 420px;
+}
+
+}
+@media(max-width:800px){
+    #projetos{
+        position: absolute;
+        /* left: -80px; */
+    }
+  
+    }
+    @media (max-width:999px){
+        #conteudoFrontEnd{
+            position: absolute;
+            width: -680px;
+        }
+        #projetos{
+            padding-right: 150px;
+        }
+    }

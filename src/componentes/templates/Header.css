@@ -1,0 +1,33 @@
+.header {
+   position: relative;
+    width: 30%;
+    position: fixed;
+    padding-bottom: 100vh;
+    left: -10px;
+    top: 0px;
+    
+    
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    
+}
+@media (max-width:1400px){
+    .header{
+        padding-right: 30px;
+    }
+}
+@media (max-width:1240px){
+    .header{
+        width: 370px;
+    }
+}
+@media(max-width:999px){
+    .header{
+        position: absolute;
+        display: block;
+    
+        width: 940px;
+    }
+    
+    
+}

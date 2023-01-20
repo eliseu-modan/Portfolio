@@ -1,0 +1,18 @@
+.Logo {
+    position:fixed;
+    left: 8%;
+    top: 10%;
+    background-color: black;
+    }
+    @media(max-width:999px){
+        .Logo{
+            position: absolute;
+            left: 360px;
+        }
+    }
+    @media(max-width:800px){
+        .Logo{
+            position: absolute;
+            left: 80px;
+        }
+    }

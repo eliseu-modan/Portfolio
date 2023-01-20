@@ -1,0 +1,112 @@
+.apresentação{
+    position: absolute;
+    padding: 270px;
+    padding-right: 500px;
+    padding-top: 230px;
+    left: 600px;
+    top: 160px;
+    background-color: #ffffff;
+    border: solid 3px rgb(0, 0, 0);
+    border-radius: 30px;
+}
+
+#apresentação__nomeSlide{
+    background-color : #ffffff;
+    position: absolute;
+    top: 45%;
+    left: 5px;
+    font-size:100px;
+    font-family: 'Montserrat','sans-serif';
+    color: #333333;
+    }
+
+    .nomeApres{
+        border-right: 15px solid rgb(255, 255, 255);
+        position: absolute;
+    left: 80px;
+        top: 100px;
+        white-space: nowrap;
+        overflow: hidden;
+        font-size: 30px;
+        color: red;
+        background-color: #ffffff;
+        border: solid 3px red;
+        border-radius: 20px;
+        padding-left: 20px;
+
+    }
+
+    .typing-animation{
+        animation: blinkCursor 800ms steps(40,end)  infinite, typing infinite 4s  steps(40) 5s  normal  both ;
+    }
+
+    @keyframes typing{
+        from{
+            animation-timing-function: ease-in-out;
+            width: 0;
+    
+        }
+        to {
+           
+            width:20em;  
+        }
+    }
+    
+    @keyframes blinkCursor{
+        from{
+    
+            border-right-color:#a93838;
+        }
+        to{
+            border-right-color:transparent;
+     }
+    }
+    
+   
+    #posdes{
+        position: absolute;
+        left: 100px;
+        top: 60px;
+    }
+    @media (max-width:1400px){
+        .apresentação{
+left:450px;
+    }
+
+    }
+    @media (max-width:1300px){
+        .apresentação{
+            border: none;
+        }
+    }
+    @media(max-width:1240px){
+        .apresentação__nomeSlide{
+            position: absolute;
+            left:-100px;
+            top: 0px;
+        }
+    }
+    @media (max-width:1200px){
+        .apresentação{
+            position: fixed;
+        }
+    }
+    @media(max-width:999px){
+        .apresentação{
+          position: absolute;
+          top: 750px;
+          left: 110px;
+          width: 10px;
+          padding:0px;
+          /* display: none; */
+        }
+        .nomeApres ,.typing-animation{
+            position: absolute;
+            font-size: 18px;
+        
+        
+      }
+
+    
+    }
+   
