@@ -234,7 +234,7 @@ return ( <div id="projetos">
    fluxos de Usuários em Sistemas e até mesmo em Cadastro de Clientes, Esse Projeto me trouce um
    amplo conhecimento nas tecnologias Front-End como: HTML, CSS, JAVASCRIPT, REACT que traz muita
    facilidade com componentização de páginas ficando fácil de manutenção e Reuso dos componentes. Clique no Iconi do GitHub 
-   Para mais informações sobre o código desse projeto. Passe o Mouse em cima da imagem para ampliar.
+   Para mais informações sobre o código desse projeto. Passe o Mouse em cima da imagem para ampliar. <b><i><a href="https://cadastrousuario-eliseu.netlify.app/">Clique Aqui para Ver o Projeto</a></i></b>
    <div id="iconsCadastro"><img src={iconHtml} width="50" />
     <img src={iconCss}  width="50" />
     <img src={js} width="50" />
