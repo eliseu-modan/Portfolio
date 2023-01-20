@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/eliseu-modan/Portifolio.git/static/css/main.bbf8579c.css",
+    "main.js": "/eliseu-modan/Portifolio.git/static/js/main.0bc65be6.js",
+    "static/js/787.b8661bb6.chunk.js": "/eliseu-modan/Portifolio.git/static/js/787.b8661bb6.chunk.js",
+    "static/media/calculadora.png": "/eliseu-modan/Portifolio.git/static/media/calculadora.b113b8a3c603c0c596dd.png",
+    "static/media/portifolio2.png": "/eliseu-modan/Portifolio.git/static/media/portifolio2.86fe8a00f1bf3899909a.png",
+    "static/media/portifolio1.png": "/eliseu-modan/Portifolio.git/static/media/portifolio1.bdd6eb5fef937a34909a.png",
+    "static/media/calculadora2.png": "/eliseu-modan/Portifolio.git/static/media/calculadora2.dea57b17e2fc0b8a198b.png",
+    "static/media/Login.png": "/eliseu-modan/Portifolio.git/static/media/Login.513d16214f7bb445eb49.png",
+    "static/media/imglinkedin_edited.jpg": "/eliseu-modan/Portifolio.git/static/media/imglinkedin_edited.63d4f2920c42e9bee8ef.jpg",
+    "static/media/React.png": "/eliseu-modan/Portifolio.git/static/media/React.86c8d9eba03e29814d2a.png",
+    "static/media/Cadastro de usuario.png": "/eliseu-modan/Portifolio.git/static/media/Cadastro de usuario.0b619fc5bb94dcc37099.png",
+    "static/media/usuarios cadastrados.png": "/eliseu-modan/Portifolio.git/static/media/usuarios cadastrados.0e290adb3467fd5e070c.png",
+    "static/media/mysql.jpeg": "/eliseu-modan/Portifolio.git/static/media/mysql.f94df011901c57a04101.jpeg",
+    "static/media/Git_icon.png": "/eliseu-modan/Portifolio.git/static/media/Git_icon.3d47885c3339ff4a6ba9.png",
+    "static/media/java.jpeg": "/eliseu-modan/Portifolio.git/static/media/java.db03082095e3fbeae2f2.jpeg",
+    "static/media/linkedin.png": "/eliseu-modan/Portifolio.git/static/media/linkedin.feedaf4d3750f0378085.png",
+    "static/media/html-5.png": "/eliseu-modan/Portifolio.git/static/media/html-5.cfb2ba4a6b1c3de295bc.png",
+    "static/media/css-3.png": "/eliseu-modan/Portifolio.git/static/media/css-3.4a6549b8c2b4cda8bb88.png",
+    "static/media/gulp.jpeg": "/eliseu-modan/Portifolio.git/static/media/gulp.3a2ff78d77ba2dd07c67.jpeg",
+    "static/media/js.png": "/eliseu-modan/Portifolio.git/static/media/js.3dfb665e058d08c99f28.png",
+    "static/media/node.jpeg": "/eliseu-modan/Portifolio.git/static/media/node.340e64487dc73b74a279.jpeg",
+    "static/media/bootstrap.jpeg": "/eliseu-modan/Portifolio.git/static/media/bootstrap.1e9265fc9ba24613eed7.jpeg",
+    "index.html": "/eliseu-modan/Portifolio.git/index.html",
+    "main.bbf8579c.css.map": "/eliseu-modan/Portifolio.git/static/css/main.bbf8579c.css.map",
+    "main.0bc65be6.js.map": "/eliseu-modan/Portifolio.git/static/js/main.0bc65be6.js.map",
+    "787.b8661bb6.chunk.js.map": "/eliseu-modan/Portifolio.git/static/js/787.b8661bb6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bbf8579c.css",
+    "static/js/main.0bc65be6.js"
+  ]
+}
