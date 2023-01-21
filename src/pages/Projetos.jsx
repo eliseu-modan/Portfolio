@@ -234,12 +234,13 @@ return ( <div id="projetos">
    fluxos de Usuários em Sistemas e até mesmo em Cadastro de Clientes, Esse Projeto me trouce um
    amplo conhecimento nas tecnologias Front-End como: HTML, CSS, JAVASCRIPT, REACT que traz muita
    facilidade com componentização de páginas ficando fácil de manutenção e Reuso dos componentes. Clique no Iconi do GitHub 
-   Para mais informações sobre o código desse projeto. Passe o Mouse em cima da imagem para ampliar. <b><i><a href="https://cadastrousuario-eliseu.netlify.app/">Clique Aqui para Ver o Projeto</a></i></b>
+   Para mais informações sobre o código desse projeto. Passe o Mouse em cima da imagem para ampliar.
+    <b><i><a href="https://cadastrousuario-eliseu.netlify.app/">Clique Aqui para Ver o Projeto</a></i></b>
    <div id="iconsCadastro"><img src={iconHtml} width="50" />
     <img src={iconCss}  width="50" />
     <img src={js} width="50" />
     <img src={iconReact} width="50" />
-    <a href="https://github.com/eliseu-modan/LayoutCadastroUsuario"><img src={iconGit} width="50" /></a>
+    <a href="https://github.com/eliseu-modan/CadastroUsuario"><img src={iconGit} width="50" /></a>
 </div>
 <div id="imgsCadastro">
   <div id="cadastroimg" > <img id="imgcadastro" src={imgCadastro} width='700' /></div>
@@ -268,7 +269,7 @@ return ( <div id="projetos">
     <img src={iconCss}  width="50" />
     <img src={js} width="50" />
     <img src={iconReact} width="50" />
-    <a href="https://github.com/eliseu-modan/Calculadora-React"><img src={iconGit} width="50" /></a>
+    <a href="https://github.com/eliseu-modan/CalculadoraReact"><img src={iconGit} width="50" /></a>
 </div>
 <div id="imgsCalculadora">
   <div id="calculadoraimg" > <img id="imgCalculadora" src={imgCalculadora} width='700' /></div>
@@ -302,7 +303,7 @@ passe o mouse em cima da imagem para ampliar
     <img src={iconCss}  width="50" />
     <img src={js} width="50" />
     <img src={iconReact} width="50" />
-    <a href="https://github.com/eliseu-modan/pagesGit"><img src={iconGit} width="50" /></a>
+    <a href="https://github.com/eliseu-modan/Portfolio"><img src={iconGit} width="50" /></a>
 </div>
 
 <div id="imgsPortifolio">
