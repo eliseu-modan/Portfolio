@@ -16,6 +16,9 @@ import imgCalculadora from'../componentes/imgs/calculadora.png'
 import img2calculadora from '../componentes/imgs/calculadora2.png'
 import imgportifolio1 from '../componentes/imgs/portifolio1.png'
 import imgportifolio2 from '../componentes/imgs/portifolio2.png'
+import imginicio from '../componentes/imgs/inicio.png'
+import imgpainel from '../componentes/imgs/painel.png'
+
 
 
 
@@ -66,6 +69,8 @@ function prop(){
     const imglogin= document.querySelector('#imglogin')
 
 
+
+
     function buttonsimgsCadastro(){
     btndireita.addEventListener('click',function(){
       imgcadastro.style.display='none'
@@ -89,6 +94,7 @@ function prop(){
 })
     })    
    }
+
       const imgPortifolio1 = document.querySelector('#imgPortifolio1')
       const imgPortifolio2 = document.querySelector('#imgPortifolio2')
       const btndireitaPortifolio =document.querySelector('#btndireitaPortifolio')
@@ -117,7 +123,70 @@ function prop(){
     })
   }
 
+
+
+  const imgpainel =document.querySelector('#imgSistemaPainel')
+  const imginicio =document.querySelector('#imgInicio')
+  const btndireitaSistema =document.querySelector("#btndireitaSistema")
+  const btnesquerdaSistema =document.querySelector("#btnesquerdaSistema")
+  const imgSistemaInicio =document.querySelector('#imgSistemaInicio')
+  const imgpainelampliar =document.querySelector('#imgPainel')
+
+
+  
+  function buttonsImgsSistema(){
+    btndireitaSistema.addEventListener('click',function(){
+      imginicio.style.display="none"
+      imgpainel.style.display="block"
+     
+
+     btnesquerdaSistema.addEventListener('click',function(){
+      imginicio.style.display="block"
+      imgpainel.style.display="none"
+     })
+
+
+   })
+      
+  }
+
+       
+
+
+
+
+
+
+
+
       function ampliarImgs(){
+
+    imginicio.addEventListener('mouseover',function(){
+          imgSistemaInicio.style.left='-100px'
+          var fator_lupa = 60;
+          this.style.width = (this.clientWidth + fator_lupa) + "px";
+
+              imginicio.addEventListener('mouseout',function(){
+                imgSistemaInicio.style.left='12px'
+                this.style.width='700px'
+              })
+    })
+
+    imgpainelampliar.addEventListener('mouseover',function(){
+      imgpainel.style.left='-100px'
+      var fator_lupa = 60;
+      this.style.width = (this.clientWidth + fator_lupa) + "px";
+
+          imgpainelampliar.addEventListener('mouseout',function(){
+            imgpainel.style.left='12px'
+            this.style.width='700px'
+          })
+})
+
+
+
+
+
     imgcadastro.addEventListener('mouseover',function(){
        
        
@@ -206,25 +275,25 @@ imglogin.addEventListener('mouseover',function(){
    buttonsimgsCadastro()
    ampliarImgs()
    buttonimgsPortifolio()
-
-    
+   buttonsImgsSistema()
      
  
-
+  
 
    })
       
       
 
-return ( <div id="projetos">
-   <div id="nome">PROJETOS </div>
+return ( <div id="projetos" >
+
+   <div id="nome" > PROJETOS  </div>
 
  <div  id="area__FrontEnd"> 
  <a  id="abrirConteudoFrontEnd"> 
  <img  id="setaBaixo" src={Seta}  width={40} ></img><b> PROJETOS WEB</b> </a>
- <a href="" id="fecharConteudoFrontEnd"><img   id="setacima"  src={SetaCima}  width={40}   /></a>
+ <a href="#projetos" id="fecharConteudoFrontEnd"><img   id="setacima"  src={SetaCima}  width={40}   /></a>
 
-   <div  className="conteudoFrontEnd" style={{display:'none'}} >  
+   <div   className="conteudoFrontEnd" style={{display:'none'}} >  
    
    <div id="conteudoCadastro">
    <div id="cadastro">Cadastro de Usuario</div>
@@ -274,25 +343,17 @@ return ( <div id="projetos">
 <div id="imgsCalculadora">
   <div id="calculadoraimg" > <img id="imgCalculadora" src={imgCalculadora} width='700' /></div>
   </div>
-
-     
-
-
+   </div>
    </div>
 
-
-
-
-
-   </div>
 
 
    <div id="conteudoPortifolio">
-   <div id="portifolio">Portifolio</div>
+   <div id="portifolio">Portfólio</div>
     <div id="informaçoesPortifolio">
-    O Projeto Portifolio como todo foi ponderado facilitar as informações de apresentação na página Home
+    O Projeto Portfólio como todo foi ponderado facilitar as informações de apresentação na página Home
 interação facil ao usuario na página projetos com design Responsivo usando tecnologias FrontEnd 
-esse portifolio me trouce uma profundidade no frammework React, e muita prática com o Javascript 
+esse portfólio me trouce uma profundidade no frammework React, e muita prática com o Javascript 
 utilizando principalmente funções da DOM trazendo um estilo agradavel com CSS,foi utilizado 
 Html, css, Javascript,React,Nele contem todas as minhas experiências com as tecnologias 
 aprendida e o nivel de aprendizado na página aprendizado,nele possui a página contato, com um formulario de 
@@ -313,17 +374,54 @@ passe o mouse em cima da imagem para ampliar
 </div>
 <button id="btndireitaPortifolio" ><img src={setadireita} width='20'/></button>
   <button id="btnesquerdaPortifolio"><img src={setaesquerda} width='20' /></button>
+</div>
 
 
 
-   </div>
+<div id="conteudoProjetoSistemaERP">
+<div id="nomeProjetoSistema">Sistema ERP</div>
+<div id="informaçoesProjetoSistema">
+Os Sistema ERPS são utilizados em grandes empresas para executar tarefas importantes em todos os setores
+que ha em uma organização, Esse Projeto SistemaERP tem por objetivo ser criado no Front-End com páginas interativas 
+E fáceis de utilidades com cores agradáveis e menus interativos.
+ Nesse Projeto foi colocado em Prática ferramentas de aprendizado no Front-End como React, Javascript, HTML, CSS,BOOTSTRAP, WEBPACK. 
+ Acesse o Primeiro Versionamento do Projeto. 
+<b><a href="https://sistemaerp-eliseu.netlify.app/#/"><i> Clique Aqui para Ver Projeto </i></a> </b>Clique no Iconi do GitHub para mais informações do código . 
+Passe o mouse em cima da imagem para ampliar.
 
-   
-   </div>
+     <div id="iconsSistemaERP">
+      <img src={iconHtml} width="50" />
+    <img src={iconCss}  width="50" />
+    <img src={js} width="50" />
+    <img src={iconReact} width="50" />
+    <a href="https://github.com/eliseu-modan/SistemaERP"><img src={iconGit} width="50" /></a>
+</div>
+<div id="imgs">
+  <div id="imgSistemaInicio" > <img id="imgInicio" src={imginicio} width='700' /></div>
+  <div id="imgSistemaPainel"> < img id="imgPainel" src={imgpainel} width='700' /></div>
+  </div>
   
+</div>
+<button id="btndireitaSistema" ><img src={setadireita} width='20'/></button>
+  <button id="btnesquerdaSistema"><img src={setaesquerda} width='20' /></button>
+</div>
 
-   
-   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
 
 
 

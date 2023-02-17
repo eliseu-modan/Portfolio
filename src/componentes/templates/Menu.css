@@ -123,8 +123,14 @@
            @media(max-width:999px){
             #navegaçao{
               position: absolute;
-              left: 160px;
-              top: 1300px;
+              left: 300px;
+              top: 600px;
        
+            }
+           }
+           @media (max-width:800px){
+            #navegaçao{
+              position: absolute;
+              left: 180px;
             }
            }

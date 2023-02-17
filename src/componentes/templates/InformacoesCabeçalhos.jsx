@@ -67,7 +67,9 @@ setInterval(() => {
         return(
     
         <div ref={containerRef} className="DescricaoCabeçalho" >
-            <h4> <span  id="nomeSoftware"> Engenheiro de Software </span><br/><br /><span id="nomeWeb">Desenvolvedor Front-End</span> <br /><br /><span id="nomeJava"> Desenvolvedor Back-End</span></h4>
+            <h4> <span  id="nomeSoftware"> Engenheiro de Software </span>
+            <br/><br /><span id="nomeWeb">Desenvolvedor Web Front-End</span> 
+            <br /><br /><span id="nomeJava"> Desenvolvedor Java</span></h4>
 <a href="https://br.linkedin.com/in/eliseu-modanesi-junior-b4801a1b6"><img id="icon_linkedin" src={linkedin} width={50} /></a>
         <a href="https://web.facebook.com/junior.modanesi?_rdc=1&_rdr"><img  id="icon_facebook" src={Facebook} width={50} /></a>
              <a href="https://github.com/eliseu-modan"><img id="Git_icon" src={GitIcon} width={60} /></a>

@@ -1,18 +1,44 @@
-.Logo {
-    position:fixed;
-    left: 8%;
-    top: 10%;
-    background-color: black;
+ .Logo {
+  display: block;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: 40px;
+  background-color: black;
+} 
+.Logo1{
+    position: relative;
+    left: 30px;
+    top: 20px;
+        border-radius:100%;
     }
+
+
+
     @media(max-width:999px){
-        .Logo{
-            position: absolute;
-            left: 360px;
+       .Logo{
+        background-color: rgb(255, 255, 255);
+        left: 30%;
+       }
+        
+        .Logo1{
+            display: block;
+            position:relative;
+            left: 8%;
+            top: 10%;
+            opacity: 90%;
+            z-index: 9;
+            background-color: aliceblue;
         }
     }
     @media(max-width:800px){
-        .Logo{
-            position: absolute;
+        .Logo1{
+            position: relative;
             left: 80px;
+        }
+    }
+    @media(max-width:1300px){
+        .Logo1{
+            left: 40px;
         }
     }

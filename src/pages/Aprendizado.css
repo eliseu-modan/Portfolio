@@ -138,11 +138,11 @@
             left: 10px;
             top: 10px;
         }
-
+        
         @media (max-width:1400px){
             #aprendizado{
                 position: absolute;
-                left: -90px;
+                left: -65px;
             }
             #conteudo{
                 width: 600px;
@@ -155,22 +155,33 @@
                 top: 250px;
                 width: 500px;
             }
-          #iconBootstrap{
-            position: absolute;
-            left: 10px;
-          }
-          #iconUml{
-            position: absolute;
-            top: 180px;
-            left: 5px;
-          }
-           #iconJquery{
-            position: absolute;
-            width: 40px;
-            left: 10px;
-            top: 100px;
-           }
+            #iconBootstrap{
+                position: absolute;
+                left: 10px;
+            }
+            #iconUml{
+                position: absolute;
+                top: 180px;
+                left: 5px;
+            }
+            #iconJquery{
+                position: absolute;
+                width: 40px;
+                left: 10px;
+                top: 100px;
+            }
+
+            
+  
+    }
+    @media(max-width:1250px){
+        #aprendizado{
+
+        left: -100px;
         }
+    }
+    
+
         @media(max-width:800px){
             #aprendizado{
                 position: absolute;
