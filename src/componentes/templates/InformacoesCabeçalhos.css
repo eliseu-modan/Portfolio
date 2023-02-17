@@ -41,9 +41,17 @@ background-color: black;
     
     background-color: black;
 }
+
+@media (max-width:2000px){
+    #Logo{
+        display: none;
+    }
+}
 @media (max-width:1300px){
  .DescricaoCabeçalho{
     left: 40px;
+    top:270px;
+
 }
 
 
@@ -61,6 +69,7 @@ background-color: black;
         background-color: rgb(255, 255, 255);
         border: solid 1px black;
         width: 400px;
+        z-index: 1;
         
     }
     #icon_linkedin,#icon_facebook,#Git_icon{
@@ -74,6 +83,14 @@ background-color: black;
         background-color: white;
         border-radius: 50px;
         left: 20px;
+    }
+
+    #Logo{
+        position: relative;
+        display: block;
+        top: -500px;
+        border-radius: 100%;
+        left: 80px;
     }
     
     

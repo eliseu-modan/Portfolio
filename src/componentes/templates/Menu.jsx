@@ -1,11 +1,10 @@
 import React from "react";
 import '../templates/Menu.css'
 import { Switch ,Route ,HashRouter } from 'react-router-dom';
-import Home from "../../componentes/templates/Logo";
 import Aprendizado from "../../pages/Aprendizado";
 import Contato from "../../pages/Contato";
 import Projetos from "../../pages/Projetos";
-
+import Home from "../templates/Apresentacao"
 export default props => 
 
 
@@ -19,7 +18,7 @@ export default props =>
 <HashRouter>
 
 <Switch>
-<Route exact path="/"><Home></Home></Route>
+<Route exact path="#"><Home></Home></Route>
 <Route path="/Aprendizado"><Aprendizado></Aprendizado></Route>
 <Route path="/Contato"><Contato></Contato></Route>
 <Route path="/Projetos"><Projetos ></Projetos></Route>
