@@ -93,12 +93,13 @@ left:450px;
     }
     @media(max-width:999px ){
         .apresentação{
-          position: relative;
+          position: absolute;
           top: 220px;
           left: 510px;
           width: 5px;
           padding:0px;
           /* display: none; */
+          z-index: 9;
         }
         .nomeApres ,.typing-animation{
             position: absolute;
@@ -112,7 +113,10 @@ left:450px;
     }
     @media (max-width:800px){
         .apresentação{
-            left: 400px;
+            position: relative;
+            left: 300px;
         }
     }
+
+    
    

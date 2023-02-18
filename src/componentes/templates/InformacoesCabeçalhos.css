@@ -97,7 +97,7 @@ background-color: black;
 }
 @media (max-width:800px){
     .DescricaoCabeçalho{
-        left: 80px;
+        left: 10px;
     }
     
 }
