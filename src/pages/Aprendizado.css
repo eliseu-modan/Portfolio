@@ -185,7 +185,20 @@
         @media(max-width:800px){
             #aprendizado{
                 position: absolute;
-                left: -150px;
+                left: -100px;
+                width: 100px;
+            }
+            #conteudo{
+                width: 400px;
+                left: 10px;
+            }
+            #iconGulp{
+                top: 175px;
+                left: 200px;
+            }
+            #iconMysql{
+           top: 175px;
+           left: 300px;
             }
         }
 

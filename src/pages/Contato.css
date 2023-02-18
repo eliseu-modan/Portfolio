@@ -116,6 +116,6 @@ background-color: #ffffff;
 @media(max-width:800px){
     #contato{
         position: absolute;
-        left: -120px;
+        left: -40px;
     }
 }
